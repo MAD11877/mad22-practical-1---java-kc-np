@@ -28,13 +28,11 @@ public class Question5
      
     Scanner in = new Scanner(System.in);
 
-    System.out.print("Enter a number: ");
     int num = in.nextInt();
 
     int[] numbers = new int[num];
 
     for (int a = 0; a < num; a++) {
-        System.out.print("> ");
         int number = in.nextInt();
         numbers[a] = number;
     }
